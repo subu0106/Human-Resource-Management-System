@@ -1,0 +1,94 @@
+.reports {
+    margin: 20px auto; /* Centering the element */
+    margin-top: 10vw;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adding border radius */
+    text-align: center; /* Centering text */
+}
+
+.reports-max {
+    margin: 20px auto; /* Centering the element */
+    margin-top: 2vw;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adding border radius */
+    text-align: center; /* Centering text */
+}
+
+.reports-min {
+    margin: 20px auto; /* Centering the element */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adding border radius */
+    text-align: center; /* Centering text */
+}
+
+.paragraph {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.paragraph-min {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+}
+
+.dropdown {
+    margin-top: 20px;
+    border-radius: 10px; /* Adding border radius */
+}
+
+.dropdown-toggle {
+    border-radius: 10px; /* Adding border radius to the button */
+}
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+    border-radius: 10px; /* Adding border radius */
+    border: 1px solid #ccc; /* Adding border */
+    position: absolute; /* Position the dropdown absolutely */
+    z-index: 1000; /* Set a high z-index to make sure it overlays other elements */
+}
+
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.dropdown-item:hover {
+    background-color: #f4f4f4;
+}
+
+/* dropdown.css */
+.dropdown {
+    position: relative; /* Positioning context for absolute positioning */
+    display: inline-block; /* Display as inline block for proper alignment */
+}
+
+.btn-secondary {
+    border-radius: 10px; /* Adding border radius to the button */
+    padding: 20px 40px; /* Increase padding for larger button */
+    margin-top: 20px; /* Add some margin at the top of the button */
+}
+
+.btn-primary {
+    margin-top: 20px; /* Add some margin at the top of the button */
+    border-radius: 10px; /* Adding border radius to the button */
+}

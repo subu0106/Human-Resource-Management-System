@@ -1,0 +1,10 @@
+values ('5535500001','HR Manager','6743100000');
+values ('5535500101','Senior Software Engineer','6743100001');
+values ('5535500102','Software Engineer','6743100003');
+values ('5535500103','Intern Software Engineer','6743100004');
+values ('5535500201','Senior QA Engineer','6743100001');
+values ('5535500202','QA Engineer','6743100003');
+values ('5535500203','Intern QA Engineer','6743100004');
+values ('5535500301', 'Accountant', '6743100002');
+values ('5535500302', 'Junior Accountant', '6743100003');
+values ('5535500303', 'Intern Accountant', '6743100004');

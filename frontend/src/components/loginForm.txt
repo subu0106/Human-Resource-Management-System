@@ -1,0 +1,45 @@
+import Joi from "joi-browser";
+import React from "react";
+import Form from "./common/form";
+import "./loginForm.css";
+
+class LoginForm extends Form {
+  state = {
+    // state object, stores data that the component needs
+    data: { username: "", password: "", remember: false },
+    errors: {},
+  };
+
+  schema = {
+    // schema object, from joi-browser
+    username: Joi.string().required().label("Username"), // label is used to display the name of the field in the error message
+    password: Joi.string().required().label("Password").min(7), // min is used to set the minimum length of the password
+    remember: Joi.boolean().label("Remember Me"),
+  };
+
+  doSubmit = () => {
+    // Call the server
+    console.log("Submitted");
+  };
+
+  render() {
+    return (
+      <div className="login-box">
+        <div className="company-heading">JUPITER APPARELS</div>
+
+        <form onSubmit={this.handleSubmit}>
+          {" "}
+          {/*raise an event when the form is submitted, button was clicked*/}
+          {this.renderInput("username", "Username", "text")}
+          {this.renderInput("password", "Password", "password")}
+          {this.renderCheck("remember", "Remember me")}{" "}
+          {/*render the checkbox in base form component*/}
+          {this.renderButton("Login")}{" "}
+          {/*render the button in base form component*/}
+        </form>
+      </div>
+    );
+  }
+}
+
+export default LoginForm;

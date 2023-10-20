@@ -1,0 +1,75 @@
+/* allEmployees.css */
+
+.table-container {
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff; /* Set background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a professional look */
+    border: "1px solid black"
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd; /* Add bottom border for separation */
+}
+
+.table th {
+    background-color: #008080; /* Set header background color */
+    color: #fff; /* Set header text color */
+    text-align: center;
+}
+
+.table td{
+    background-color: antiquewhite;
+    text-align: center;
+    cursor: pointer;
+}
+
+.table th.clickable:hover {
+    cursor: pointer;
+}
+
+.table tbody tr:hover {
+    font-weight: bold;
+    background-color: #f2f2f2; /* Adjusted hover color */
+}
+
+/* Adjust column widths */
+/* .table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 20%;
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 30%;
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 50%;
+} */
+
+.pagination{
+    display: flex;
+    margin-left: 100px;
+    position:fixed;
+    margin-top: 30px;
+    position: relative;
+}
+
+.paragraph{
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/background.jpg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.date-input input[type="date"] {
+  appearance: none;
+  padding: 8px 30px 8px 8px; /* Added extra padding for the calendar icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.date-input input[type="date"]::-webkit-inner-spin-button,
+.date-input input[type="date"]::-webkit-clear-button,
+.date-input input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Removes the default spinner arrows */
+}
+
+/* Add hover effect */
+.date-input input[type="date"]:hover {
+  border-color: #aaa;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Round the corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.reason-input {
+  width: 400px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.reason-input:focus {
+  border-color: #007bff;
+}
